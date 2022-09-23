@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centella-Login</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+<body>
+    <form action="/userLogin" method="post">
+        <h1>USER LOGIN PAGE</h1>
+        <p>Login or Register with:</p>
+        <a href="/auth/google" class="btn btn-danger"><span class="fa fa-google"></span> SignIn with Google</a>
+        <br><br>
+        <a href="/auth/linkedin" class="waves-effect waves-light btn social linkedin">
+        <i class="fa fa-linkedin"></i> Sign in with Linkedin
+        </a>
+        <br><br>
+        <hr>
+        
+        <input type="text" name="username" placeholder="Enter your Username">
+        <br><br>
+        <input type="password" name="password" placeholder="Enter your Password">
+        <br><br>
+        <input type="submit" value="Login">
+        <br><br><br>
+        <a href="/forgot-password">Forgot Password</a> |
+        <a href="/userRegister">Signup if new user</a>
+    </form>
+</body>
+</html>
